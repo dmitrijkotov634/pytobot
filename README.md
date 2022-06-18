@@ -1,13 +1,17 @@
 # pytobot
+
 Turns any script into a telegram bot
- 
+
 ![pypi](https://badge.fury.io/py/pytobot.svg)
- 
+
 ## Install
+
 `pip install --upgrade pytobot`
- 
+
 ## Usage
-*Script*:
+
+Script:
+
 ```python
 while True:
     message = input()
@@ -15,7 +19,8 @@ while True:
         print("Hello, world!")
 ```
 
-*Console*:
+Terminal:
+
 ```console
 $ pytobot script.py -t TOKEN
 ```
